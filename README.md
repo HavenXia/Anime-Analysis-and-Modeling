@@ -22,6 +22,12 @@ There are three datasets in it:
 + Training linear regression and random forest models for the amount of anime with different genres. Test models and compare their performances.  
 + Training random forest models or CNN for score based on anime’s features and comparing their performance.
 
+## Notebook Description
++ [Notebook 1](https://github.com/HavenXia/Anime-Analysis-and-Modeling/blob/main/notebooks/1.%20545_Project_User.ipynb) focus on UserList.csv and UserAnimeList.csv, merge them after data cleaning and wrangling, which is prepared for further merge with AnimeList.csv.
++ [Notebook 2](https://github.com/HavenXia/Anime-Analysis-and-Modeling/blob/main/notebooks/2.%20545_Project_AnimeList.ipynb) handle the data of animates and merge with the combined data from Notebook 1, producing fulldata.csv.
++ [Notebook 3](https://github.com/HavenXia/Anime-Analysis-and-Modeling/blob/main/notebooks/3.%20545_Project_fulldata.ipynb) focus on fulldata.csv, apply various modeling on it, including **PCA, Linear Regression, Random Forest, Logistic Regression, SVM, Gradient-Boosting, Multi-layer Neural Network**. Finally end with a Model Comparision.
+
+
 ## Interests:
 This project will focus on the analysis of american otaku history, the trends of genres and producers. Distinct visualization on tastes of users classified by gender, age or even location.
 Some predictions on future trending animates genres can also be applied and evaluation on such predictions will be implemented.
